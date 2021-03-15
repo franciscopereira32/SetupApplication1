@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SetupApplication1.jnlp">
+  <information>
+    <title>SetupApplication1</title>
+    <vendor>Engenharia</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SetupApplication1.jar" size="61362" download="eager" />
+  </resources>
+  <application-desc main-class="View.Planeta"  name="SetupApplication1" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
